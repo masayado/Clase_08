@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Algunos datos sobre crímenes en los Estados Unidos">
+    <meta name="author" content="Marion Sayado">
+
+    <meta name="keywords" content="Crimen, Crimenes, Estados Unidos, Crímenes en Estados Unidos, Muertes, Robo">
+
+    <title>Crímenes en Estados Unidos</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+
+
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Crimen en EE.UU.</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Ciudades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Tasas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Muertes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">Crímenes en los Estados Unidos</h1>
+              <p class="intro-text">En esta página podrás informarte sobre algunos datos estadísticos sobre crímenes en EE.UU.</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div id="here" class="col-lg-8 mx-auto">
+            <h2>Las 10 ciudades más peligrosas</h2>
+            <p>El FBI informó a finales de septiembre que los niveles de delincuencia aumentaron una vez más en 2016. Esto marca el segundo año consecutivo en que las tasas han aumentado, después de casi dos décadas de disminuciones constantes. En 2016 hubo 1,2 millones de delitos violentos, 4,1% más que en 2015. El aumento en la delincuencia en solo algunas ciudades importantes llevó en gran medida el aumento de la violencia en todo el país. A continuación se presentan las 10 ciudades más peligrosas del país y su índice de criminalidad, de acuerdo a datos presentados por <a href="https://www.huffingtonpost.com/entry/estados-mas-peligrosos-estados-unidos_n_56477520">The Huffington Post</a>. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section content-section text-center">
+      <div class="container">
+        <div id="crimenes" class="col-lg-8 mx-auto">
+          <h2>Crímenes y tasas de Críminalidad</h2>
+          <p>El siguiente gráfico muestra los tipos de crímenes cometidos en el país y la tasa de criminalidad correspondiente a cada uno:</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div id="crimenes" class="col-lg-8 mx-auto">
+            <h2>¿Cuántas personas mueren a causa de crímenes en EE.UU?</h2>
+            <p>El siguiente gráfico muestra la cantidad de personas fallecidas a causa de asesinatos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Marion Sayado &copy; Diseño y Nuevos Medios, Segundo Semestre 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+        <!-- Javascript de visualizaciones-->
+  <script src="https://d3js.org/d3.v5.min.js"></script> 
+   <script src="ciudades.js"></script>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+   <script src="crimenes.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+
+  </body>
+
+</html>
